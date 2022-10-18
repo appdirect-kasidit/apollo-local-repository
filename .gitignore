@@ -1,0 +1,13 @@
+### Binaries ###
+router
+node_modules/
+package-lock.json
+
+### IntelliJ IDEA ###
+.idea
+*.iml
+*.iws
+*.ipr
+
+### MacOS ###
+.DS_Store

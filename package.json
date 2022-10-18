@@ -1,0 +1,23 @@
+{
+  "name": "apollo-local-federation",
+  "version": "1.0.0",
+  "description": "Apollo local federation with minikube",
+  "main": "gateway.js",
+  "type": "module",
+  "scripts": {
+    "start-gateway": "nodemon gateway.js",
+    "start-service-1": "nodemon services/service-1/index.js",
+    "start-service-2": "nodemon services/service-2/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/gateway": "^2.1.3",
+    "apollo-server": "^3.10.3",
+    "apollo-server-core": "^3.10.3",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
